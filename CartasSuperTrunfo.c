@@ -36,13 +36,13 @@ int main() {
    
     //código para entrada de dados da primeira carta que aqui eu coloquei como jogador 1, provavelmente no futuro será aprimorado esse texto
     printf ("Jogador 1 digite o estado: \n");
-    scanf ("%c", &estado1);
+    scanf (" %c", &estado1);
 
     printf ("Jogador 1 digite o código da carta: \n");
-    scanf ("%s", codigo_carta1);
+    scanf (" %s", &codigo1);
 
     printf ("Jogador 1 digite o nome da cidade: \n");
-    scanf ("%s",cidade1);
+    scanf (" %s", &nomeCidade1);
 
     printf ("Jogador 1 digite a população: \n");
     scanf ("%d",&populacao1);
@@ -54,7 +54,7 @@ int main() {
     scanf ("%f",&pib1 );
 
     printf ("Jogador 1 digite o quantidade de postos turisticos: \n");
-    scanf ("%d",&n_pontos_turisticos1 );
+    scanf ("%d",&pontosTuristicos1);
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -62,12 +62,12 @@ int main() {
 
     printf ("carta 1: \n");
     printf ("Estado: %c. \n", estado1);
-    printf ("Código: %s. \n", codigo_carta1);
-    printf ("Nome da Cidade: %s. \n", cidade1);
+    printf ("Código: %s. \n", codigo1);
+    printf ("Nome da Cidade: %s. \n", nomeCidade1);
     printf ("População: %d. \n", populacao1);
     printf ("Área: %f. Km² \n", area1);
     printf ("PIB: %f bilhões de reais \n", pib1);
-    printf ("Númros de pontos turisticos: %d \n", n_pontos_turisticos1);
+    printf ("Númros de pontos turisticos: %d \n", pontosTuristicos1);
 
 
     return 0;
